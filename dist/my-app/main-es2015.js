@@ -450,7 +450,7 @@ __webpack_require__.r(__webpack_exports__);
 let GetItemComponent = class GetItemComponent {
     constructor(http) {
         this.http = http;
-        this.http.get('https://24pr8rllef.execute-api.us-east-1.amazonaws.com/dev/postss').subscribe((data) => {
+        this.http.get('https://24pr8rllef.execute-api.us-east-1.amazonaws.com/dev/posts').subscribe((data) => {
             console.log('data', data);
         });
         console.log('data');
