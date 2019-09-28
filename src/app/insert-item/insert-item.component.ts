@@ -21,7 +21,7 @@ export class InsertItemComponent implements OnInit {
 
   onSubmit(){
     console.warn(this.profile.value);
-    this.http.post('https://24pr8rllef.execute-api.us-east-1.amazonaws.com/dev/post',this.profile.value).subscribe((data) => {
+    this.http.post('https://lsj8s8y21b.execute-api.us-east-1.amazonaws.com/dev/post',this.profile.value).subscribe((data) => {
       console.log(data);
     })
   }

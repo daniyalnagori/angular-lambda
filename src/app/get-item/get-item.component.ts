@@ -8,7 +8,7 @@ import {HttpClient} from '@angular/common/http';
 export class GetItemComponent implements OnInit {
 
   constructor(private http: HttpClient) { 
-    this.http.get('https://24pr8rllef.execute-api.us-east-1.amazonaws.com/dev/posts').subscribe((data) => {
+    this.http.get('https://lsj8s8y21b.execute-api.us-east-1.amazonaws.com/dev/post').subscribe((data) => {
       console.log('data',data);
     })
     console.log('data');
