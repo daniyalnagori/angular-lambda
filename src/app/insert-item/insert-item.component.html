@@ -1,0 +1,12 @@
+<p>insert-item works!</p>
+
+<form [formGroup]="profile" (ngSubmit)="onSubmit()">
+
+    <input type="text" formControlName="title">
+    <input type="text" formControlName="body">
+
+    <button type="submit" [disabled]="!profile.valid">Submit</button>
+
+</form>
+
+<p>{{item}}</p>
